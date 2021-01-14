@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background: rgba(86, 248, 80, 0.575);
+}
+header{
+    background: #039c03ce;
+    width: 100%;
+    height: auto;
+    padding:15px 0;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+nav{
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+}
+.logo img{
+    width: 225px;
+    
+}
+.main-menu{
+    width: 60%;
+    float: right;
+    padding-top: 15px;
+}
+.main-menu ul{
+    text-align: right;
+}
+.main-menu ul li{
+    display: inline;
+    padding-right: 50px;
+}
+.main-menu ul li a{
+    font-size: 22px;
+    color: #000;
+}
+.main-menu ul li a:hover{
+    color:#ff6600;
+    transition: .3s;
+}
+.main-menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+
+
+.slider{
+height: 100vh;
+background-image: url("kk.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.greenbox{
+    width: 600px;
+    height: 300px;
+    background: green;
+    margin: 100px auto;
+    overflow: hidden;
+
+}
+.redcircle{
+    background:red;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 37px 195px;
+    
+}
