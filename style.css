@@ -78,3 +78,35 @@ background-size: cover;
     margin: 37px 195px;
     
 }
+
+
+
+/* Table */
+
+
+table { 
+	width: 950px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th { 
+	background: #05ac1b; 
+	color: white; 
+    font-weight: bold;
+    font-size: 22px !important;
+    padding: 20px !important;
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+    }
+    tr{
+        background: rgb(243, 243, 243);
+    }
+    tr:hover {
+        background-color: #ecece9;
+      }
